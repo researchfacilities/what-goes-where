@@ -81,7 +81,7 @@ p {
   width:200px;height:205px;
 }
 
-@media (max-width: 600px) {
+@media {
   body {
     padding: 10px;
   }
