@@ -1,0 +1,96 @@
+/* General body styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  background-color: #f1f1f1;
+  font-size: 18px;
+}
+
+/* Input field styling */
+input {
+  margin-bottom: 20px;
+  padding: 8px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Table styles */
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Table header styles */
+th {
+  background-color: #070652;
+  color: white;
+  padding: 5px;
+  text-align: left;
+   word-break: break-word;
+  white-space: normal;
+}
+
+/* Table cell styles */
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+   word-break: break-word;
+  white-space: normal;
+}
+
+/* Row hover effect */
+tr:hover {
+  background-color: #dadce6;
+}
+
+/* Search input field styling */
+#searchInput {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  font-size: 16px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;height:205px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  th, td {
+    padding: 6px;
+    font-size: 14px;
+  }
+}
